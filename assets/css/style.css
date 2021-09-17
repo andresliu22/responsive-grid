@@ -1,0 +1,56 @@
+
+:root {
+    --color: magenta;
+}
+
+h1, h2, h3, h4 ,h5, h6 {
+    color: var(--color);
+    font-family: serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+legend {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 40px 5px 40px;
+    border-color: white;
+}
+legend, .description {
+    color: var(--color);
+    font-family: serif;
+}
+
+.subtitle {
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    padding: 1%;
+    margin: 0.5%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-style: dotted;
+    border-color: white;
+
+}
+
+.css-code {
+    background-color: var(--color);
+    color: white;
+}
+
+body {
+    background-color: darkslategray;
+}
